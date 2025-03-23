@@ -1,0 +1,36 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+canvas {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+.node-card {
+  width: auto;
+  z-index: 1;
+  max-width: 160px;
+  padding: 8px 14px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #1e1e1e;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3);
+}
+
